@@ -23,4 +23,24 @@ describe('Array', function() {
       expect(str).to.be('a\nb');
     });
   });
+
+  describe('#pop()', function() {
+    it('最後の要素を削除すること', function() {
+      var a = ['a', 'b'];
+      a.pop();
+      expect(a).to.eql(['a']);
+    });
+
+    it('最後の要素を返すこと', function() {
+      var a = ['a', 'b'];
+      var poped = a.pop();
+      expect(poped).to.be('b');
+    });
+
+    it('配列が空だった場合、`undefined`を返すこと', function() {
+      var a = [];
+      var poped = a.pop();
+      expect(poped).to.be.an('undefined');
+    });
+  });
 });
