@@ -1,0 +1,9 @@
+{
+    "name": "Sapporo.js"
+  , "version": "2012.03.31"
+  , "description": "Sapporo.jsでの写経ログ"
+  , "dependencies": {
+      "mocha": "~> 1.0.0"
+    , "expect.js": "~> 0.1.2"
+  }
+}
