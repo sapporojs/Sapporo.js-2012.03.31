@@ -26,7 +26,7 @@
 Requirements:
 
 * [Node.JS](http://nodejs.org) (0.6.14)
-* [mocha](http://visionmedia.github.com/mocha) (0.14.1)
+* [mocha](http://visionmedia.github.com/mocha) (1.0.0)
 * [expect.js](https://github.com/LearnBoost/expect.js) (0.1.2)
 
 ### Node.JS
