@@ -1,9 +1,11 @@
 # [Sapporo.js-2012.03.31](http://atnd.org/events/26577)
 
 [JavaScript: The Good Parts](http://www.amazon.co.jp/dp/4873113911) の内容を理解するために、仕様化テストを書いていきます。
+
 「p.89 8章 メソッド」から進めていきます。
 
 「仕様化テスト」 = 仕様を理解するために記述するテスト
+
 参考: [レガシーコード改善ガイド](http://www.amazon.co.jp/dp/4798116831)
 
 ## テストフレームワークの紹介:
